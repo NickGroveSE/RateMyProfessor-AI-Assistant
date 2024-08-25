@@ -1,0 +1,155 @@
+{
+    "reviews": [
+      {
+        "professor": "Dr. John Smith",
+        "review": "Dr. Smith is a fantastic lecturer who really knows how to make Calculus I interesting. His examples are always relevant, and he makes sure that everyone understands the material before moving on. The exams are fair, but you need to stay on top of the homework.",
+        "subject": "Calculus I",
+        "stars": 5
+      },
+      {
+        "professor": "Prof. Sarah Johnson",
+        "review": "Organic Chemistry is a tough course, but Prof. Johnson makes it manageable. Her lectures are clear, and she is always willing to help during office hours. The quizzes are challenging but help you stay prepared for the exams.",
+        "subject": "Organic Chemistry",
+        "stars": 4
+      },
+      {
+        "professor": "Dr. Emily White",
+        "review": "Dr. White's passion for American Literature is infectious. Her lectures are thought-provoking and she encourages students to think critically. However, the reading load is heavy, so be prepared to spend a lot of time with the books.",
+        "subject": "American Literature",
+        "stars": 4
+      },
+      {
+        "professor": "Prof. Michael Brown",
+        "review": "I struggled with Physics I until I took Prof. Brown's class. He breaks down complex concepts into understandable parts and uses lots of real-world examples. The labs are well-organized, and the TA was really helpful too.",
+        "subject": "Physics I",
+        "stars": 5
+      },
+      {
+        "professor": "Dr. Laura Green",
+        "review": "Dr. Green's lectures in Microeconomics are always engaging and relevant to current events. She provides clear explanations and her exams reflect the material covered in class. Be sure to participate in discussions, as they can be quite insightful.",
+        "subject": "Microeconomics",
+        "stars": 4
+      },
+      {
+        "professor": "Prof. James Black",
+        "review": "Prof. Black's Intro to Psychology class was a bit underwhelming. While the material is interesting, his lectures can be monotonous. However, the exams were straightforward, and the assignments were manageable.",
+        "subject": "Introduction to Psychology",
+        "stars": 3
+      },
+      {
+        "professor": "Dr. Patricia Jones",
+        "review": "Dr. Jones is an excellent professor for Introduction to Sociology. Her lectures are well-structured, and she encourages students to think critically about societal issues. The group projects were a bit challenging, but they were worth it.",
+        "subject": "Introduction to Sociology",
+        "stars": 5
+      },
+      {
+        "professor": "Prof. Robert Miller",
+        "review": "I found Prof. Miller's class on European History to be very informative. He is very knowledgeable and presents the material in a clear and engaging way. The only downside is that the reading load is quite heavy.",
+        "subject": "European History",
+        "stars": 4
+      },
+      {
+        "professor": "Dr. Karen Davis",
+        "review": "Dr. Davis is a tough but fair professor for Organic Chemistry II. She expects a lot from her students, but if you put in the effort, you'll do well. Her exams are challenging, but they accurately reflect the material covered in class.",
+        "subject": "Organic Chemistry II",
+        "stars": 4
+      },
+      {
+        "professor": "Prof. William Garcia",
+        "review": "Prof. Garcia's Introduction to Computer Science class is great for beginners. He explains concepts clearly and is always willing to help during office hours. The programming assignments can be tricky, but they are a great way to learn the material.",
+        "subject": "Introduction to Computer Science",
+        "stars": 5
+      },
+      {
+        "professor": "Dr. Susan Martin",
+        "review": "Dr. Martin's lectures in Environmental Science are both engaging and informative. She ties the material to real-world issues and encourages students to think about how they can make a difference. The exams are fair, and the projects are interesting.",
+        "subject": "Environmental Science",
+        "stars": 5
+      },
+      {
+        "professor": "Prof. Richard Wilson",
+        "review": "Prof. Wilson's class on Constitutional Law was challenging but rewarding. He encourages deep thinking and class participation, and the discussions were always lively. The readings are dense, but necessary for understanding the material.",
+        "subject": "Constitutional Law",
+        "stars": 4
+      },
+      {
+        "professor": "Dr. Linda Lee",
+        "review": "Dr. Lee is a fantastic professor for Introduction to Philosophy. Her lectures are clear and she encourages students to question and debate the material. The writing assignments are challenging, but they really help deepen your understanding of the concepts.",
+        "subject": "Introduction to Philosophy",
+        "stars": 5
+      },
+      {
+        "professor": "Prof. Steven Martinez",
+        "review": "Prof. Martinez's Calculus II class was extremely difficult. The material is challenging and he moves at a fast pace. However, he is always available for extra help and the exams are fair if you put in the work.",
+        "subject": "Calculus II",
+        "stars": 3
+      },
+      {
+        "professor": "Dr. Barbara Thomas",
+        "review": "Dr. Thomas's course on World Literature was eye-opening. She introduced us to a wide range of authors and cultures. The discussions were always engaging, and she encouraged us to think critically about the texts.",
+        "subject": "World Literature",
+        "stars": 5
+      },
+      {
+        "professor": "Prof. Paul Harris",
+        "review": "Prof. Harris is an engaging lecturer for Introduction to Political Science. His enthusiasm for the subject is infectious, and he does a great job of explaining complex concepts. The exams are fair, but the readings can be a bit dense.",
+        "subject": "Introduction to Political Science",
+        "stars": 4
+      },
+      {
+        "professor": "Dr. Nancy Adams",
+        "review": "Dr. Adams's Statistics course is well-organized and easy to follow. She makes sure that everyone understands the material before moving on, and her office hours are very helpful. The homework is challenging, but it prepares you well for the exams.",
+        "subject": "Statistics",
+        "stars": 5
+      },
+      {
+        "professor": "Prof. Charles Thompson",
+        "review": "I found Prof. Thompson's course on Business Ethics to be very thought-provoking. He encourages students to think critically about ethical dilemmas in the business world. The case studies were particularly interesting, though the exams were a bit tough.",
+        "subject": "Business Ethics",
+        "stars": 4
+      },
+      {
+        "professor": "Dr. Margaret Allen",
+        "review": "Dr. Allen is a brilliant professor for Introduction to Biology. Her lectures are clear and engaging, and she does a great job of breaking down complex concepts. The labs are well-organized, but the exams are challenging, so be prepared to study hard.",
+        "subject": "Introduction to Biology",
+        "stars": 5
+      },
+      {
+        "professor": "Prof. George Walker",
+        "review": "Prof. Walker's class on American Government was one of the best courses I've taken. He is very knowledgeable and presents the material in an engaging way. The exams are fair, but the reading load is heavy.",
+        "subject": "American Government",
+        "stars": 4
+      },
+      {
+        "professor": "Dr. Deborah Scott",
+        "review": "Dr. Scott's lectures in Introduction to Anthropology are fascinating. She brings in a lot of real-world examples and encourages students to think critically about different cultures. The exams are fair, but the readings can be a bit dense.",
+        "subject": "Introduction to Anthropology",
+        "stars": 5
+      },
+      {
+        "professor": "Prof. Thomas Hall",
+        "review": "Prof. Hall's course on Environmental Policy is very informative. He does a great job of explaining complex policies and their implications. The discussions are always engaging, but the exams are tough, so be prepared to put in the work.",
+        "subject": "Environmental Policy",
+        "stars": 4
+      },
+      {
+        "professor": "Dr. Amanda King",
+        "review": "Dr. King is a fantastic professor for Human Anatomy. Her lectures are clear and well-organized, and she does a great job of explaining the material. The labs are challenging, but they really help solidify your understanding of the concepts.",
+        "subject": "Human Anatomy",
+        "stars": 5
+      },
+      {
+        "professor": "Prof. Christopher Young",
+        "review": "Prof. Young's class on Marketing Principles was very engaging. He brings in a lot of real-world examples and encourages students to think creatively. The exams are fair, but the group projects can be a bit challenging.",
+        "subject": "Marketing Principles",
+        "stars": 4
+      },
+      {
+        "professor": "Dr. Elizabeth Perez",
+        "review": "Dr. Perez's Introduction to Chemistry course is well-organized and easy to follow. She explains concepts clearly and is always willing to help during office hours. The labs are interesting, but the exams are challenging, so be prepared to study hard.",
+        "subject": "Introduction to Chemistry",
+        "stars": 4
+      }
+    ]
+}
+  
