@@ -1,11 +1,9 @@
 from dotenv import load_dotenv
 load_dotenv()
-from pinecone import Pinecone, ServerlessSpec
-from openai import OpenAI
-from huggingface_hub import InferenceClient
 import os
 import json
 from sentence_transformers import SentenceTransformer
+from pinecone import Pinecone, ServerlessSpec
 from huggingface_hub import login
 login(os.getenv("HUGGINGFACE_TOKEN"))
 
