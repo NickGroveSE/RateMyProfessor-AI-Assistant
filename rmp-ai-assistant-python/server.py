@@ -18,9 +18,19 @@ CORS(app)
 
 # AI Models Config
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-chat_model = genai.GenerativeModel('gemini-1.5-flash')
+# genai_config = genai.GenerationConfig(
+#     response_schema='application/json'
+# )
+chat_model = genai.GenerativeModel(
+    model_name='gemini-1.5-flash'
+)
 embedding_model = SentenceTransformer("TaylorAI/gte-tiny")
-systemPrompt = 'You are a rate my professor agent to help students find classes, that takes in user questions and answers them. For every user question, the top 5 professors that match the user question are returned. Use them to answer the question if needed.'
+systemPrompt = """
+You are a rate my professor agent to help students find classes, that takes in user questions and answers them. 
+For every user question, the top 5 professors that match the user's question will be added under it. 
+Use them to form a summary IN YOUR OWN WORDS where you zero down to 3 professors that you think will be the best choice for the user.
+Put 2 newlines between the possible professors.
+"""
 
 # Pinecone Config
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
@@ -43,11 +53,13 @@ def recommendation():
     for match in query_results.matches:
         resultString += "Professor: " + match.id + ", Review: " + match.metadata['review'] + ", Subject: " + match.metadata['subject'] + ", Stars: " + str(match.metadata['stars']) + "\n\n" 
 
-    content = [{"role": "model", "parts": [{"text": systemPrompt}]}, {"role": "user", "parts": [{"text": request_data["content"] + "\n\n" + resultString}]}]
+    content = [{"role": "model", "parts": [{"text": systemPrompt}]}, 
+               {"role": "user", "parts": [{"text": request_data["content"] + "\n\n" + resultString}]}]
     response = chat_model.generate_content(content)
 
+    # print(response)
 
-    return jsonify({"response": response})
+    return jsonify({"response": response.text})
 
 if __name__ == "__main__":
     app.run(debug=True, port=8080)
